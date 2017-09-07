@@ -1,0 +1,49 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.remover{
+
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #bf0000;
+  font-size: 2em;
+}
+.remover:hover {
+  cursor: pointer;
+
+}
+
+
+.remover-right{
+
+	line-height:25px;
+	color:#bf0000;
+
+
+
+}
+
+.tittle{
+	margin-top:50px;
+	font-size:48px;
+	font-family:"Raleway", sans-serif;
+
+}
+th{
+cursor: pointer;
+
+
+}
+th::after{
+  content: "»";
+
+
+}
